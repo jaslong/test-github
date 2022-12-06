@@ -1,0 +1,250 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "i3z63WaCLuRiSZRBwZC8d1",
+      "projectApiToken": "vFDcPRRkeIndudbVPzzJ6XYFTPaQbbUH7viVQRfVlT6w3AZurCwBghalKWIWYrMiawJ1uBiJ5nGZCgQGR1Tg",
+      "projectName": "commerce-shopify",
+      "version": "4.7.0",
+      "cssFilePath": "plasmic/commerce_shopify/plasmic_commerce_shopify.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "plasmic/commerce_shopify/PlasmicGlobalContextsProvider.tsx",
+      "codeComponents": [
+        {
+          "id": "CSRQMDqlyz3-",
+          "name": "CommerceProviderComponent",
+          "componentImportPath": "@plasmicpkgs/commerce-shopify"
+        }
+      ]
+    },
+    {
+      "projectId": "xp1p7dmg329XVLHyuEUxD2",
+      "projectApiToken": "lKmNlwaV4Oj0MW88hxVZ5o5DRgZ8MIE6XICXwHEIus3QTO9JqH6779kr2KkJg7S816qbjShlBQ8PzLYAK4Q",
+      "projectName": "commerce",
+      "version": "11.8.0",
+      "cssFilePath": "plasmic/commerce/plasmic_commerce.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "vU2jzVAnFP",
+          "name": "ProductCollection",
+          "componentImportPath": "@plasmicpkgs/commerce"
+        },
+        {
+          "id": "S1F4q0wN6b",
+          "name": "ProductTextField",
+          "componentImportPath": "@plasmicpkgs/commerce"
+        },
+        {
+          "id": "_PaJxGc8gf",
+          "name": "ProductPriceComponent",
+          "componentImportPath": "@plasmicpkgs/commerce"
+        },
+        {
+          "id": "qpULM0wwWW",
+          "name": "ProductMedia",
+          "componentImportPath": "@plasmicpkgs/commerce"
+        },
+        {
+          "id": "NR7KYUJmEqx",
+          "name": "AddToCartButton",
+          "componentImportPath": "@plasmicpkgs/commerce"
+        },
+        {
+          "id": "CjfQQrwiHjD",
+          "name": "ProductQuantity",
+          "componentImportPath": "@plasmicpkgs/commerce"
+        },
+        {
+          "id": "i3vHZr7erKX",
+          "name": "ProductVariantPicker",
+          "componentImportPath": "@plasmicpkgs/commerce"
+        },
+        {
+          "id": "UGhhaf1AiUhF",
+          "name": "CartComponent",
+          "componentImportPath": "@plasmicpkgs/commerce"
+        },
+        {
+          "id": "1gYJf_XBZUAD",
+          "name": "ProductBox",
+          "componentImportPath": "@plasmicpkgs/commerce"
+        },
+        {
+          "id": "t362fgW6eiCe",
+          "name": "ProductLink",
+          "componentImportPath": "@plasmicpkgs/commerce"
+        },
+        {
+          "id": "ny07p45F84c_",
+          "name": "CategoryCollection",
+          "componentImportPath": "@plasmicpkgs/commerce"
+        },
+        {
+          "id": "hzqiq--xdG5T",
+          "name": "CategoryField",
+          "componentImportPath": "@plasmicpkgs/commerce"
+        },
+        {
+          "id": "fA0CIfqZOwRH",
+          "name": "CategoryLink",
+          "componentImportPath": "@plasmicpkgs/commerce"
+        },
+        {
+          "id": "5k_ZYl4EkcYi",
+          "name": "ProductSlider",
+          "componentImportPath": "@plasmicpkgs/commerce"
+        },
+        {
+          "id": "yOXBNIAJxzUq",
+          "name": "CategoryMedia",
+          "componentImportPath": "@plasmicpkgs/commerce"
+        },
+        {
+          "id": "a5BakxYc5Db_",
+          "name": "ProductMediaCollection",
+          "componentImportPath": "@plasmicpkgs/commerce"
+        }
+      ]
+    },
+    {
+      "projectId": "iTYzeKnrXvzQT22ANsbdfq",
+      "projectApiToken": "3QyfaRthPGWCi8ZnQcw9zBuNNM4AI34LUEvuEdCYXTgDUfb6m9R1if6Ip2eaWVFNhuU9yloahCbjwhna5g",
+      "projectName": "Jason testing",
+      "version": "latest",
+      "cssFilePath": "plasmic/jason_testing/plasmic_jason_testing.module.css",
+      "components": [
+        {
+          "id": "QJqxQ9Sc3N",
+          "name": "Ungroup",
+          "type": "managed",
+          "projectId": "iTYzeKnrXvzQT22ANsbdfq",
+          "renderModuleFilePath": "plasmic/jason_testing/PlasmicUngroup.tsx",
+          "importSpec": {
+            "modulePath": "Ungroup.tsx"
+          },
+          "cssFilePath": "plasmic/jason_testing/PlasmicUngroup.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "75VUXY12tQ",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "iTYzeKnrXvzQT22ANsbdfq",
+          "renderModuleFilePath": "plasmic/jason_testing/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/jason_testing/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "XQ76UUHPiG",
+          "name": "Branch",
+          "type": "managed",
+          "projectId": "iTYzeKnrXvzQT22ANsbdfq",
+          "renderModuleFilePath": "plasmic/jason_testing/PlasmicBranch.tsx",
+          "importSpec": {
+            "modulePath": "../pages/branch.tsx"
+          },
+          "cssFilePath": "plasmic/jason_testing/PlasmicBranch.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "D9nOG6NGp3",
+          "name": "Variants",
+          "type": "managed",
+          "projectId": "iTYzeKnrXvzQT22ANsbdfq",
+          "renderModuleFilePath": "plasmic/jason_testing/PlasmicVariants.tsx",
+          "importSpec": {
+            "modulePath": "Variants.tsx"
+          },
+          "cssFilePath": "plasmic/jason_testing/PlasmicVariants.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "bzNPM3MOMo",
+          "name": "Test",
+          "type": "managed",
+          "projectId": "iTYzeKnrXvzQT22ANsbdfq",
+          "renderModuleFilePath": "plasmic/jason_testing/PlasmicTest.tsx",
+          "importSpec": {
+            "modulePath": "Test.tsx"
+          },
+          "cssFilePath": "plasmic/jason_testing/PlasmicTest.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [],
+      "images": [
+        {
+          "id": "Q_sjTfjiT",
+          "name": "no.png",
+          "filePath": "../public/plasmic/jason_testing/images/nopng.png"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "plasmic/jason_testing/PlasmicGlobalContextsProvider.tsx",
+      "codeComponents": [
+        {
+          "id": "dRogqOvPW2",
+          "name": "PlasmicHead",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "V3gQuayUeJ",
+          "name": "Fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ]
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "t5XZJh_InfPwU",
+        "name": "Screen",
+        "projectId": "iTYzeKnrXvzQT22ANsbdfq",
+        "contextFilePath": "plasmic/jason_testing/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.188",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.188/dist/plasmic.schema.json"
+}
